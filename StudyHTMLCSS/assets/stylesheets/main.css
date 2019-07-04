@@ -128,12 +128,15 @@ h1, h3, h4, h5, p {
 .hero {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align: center;
 }
+
 .hero h2 {
   font-size: 36px;
 }
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
 .teaser a:hover h3 {
@@ -196,7 +199,7 @@ h1, h3, h4, h5, p {
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4 {
   color: #648880;
@@ -250,8 +253,11 @@ p a {
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  text-transform: uppercase;
 }
 .tagline {
   margin: 66px 0 22px 0;
