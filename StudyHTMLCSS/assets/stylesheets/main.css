@@ -126,8 +126,20 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
+  line-height: 44px;
   padding: 22px 80px 66px 80px;
 }
+.hero h2 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 24px;
+}
+
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
+
 
 /*
   ========================================
@@ -166,9 +178,16 @@ h1, h3, h4, h5, p {
 */
 
 .primary-footer {
+  color: #648880;
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
+
 
 /*
   ========================================
@@ -200,7 +219,9 @@ h5 {
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
+
 strong {
   font-weight: 400;
 }
@@ -215,11 +236,15 @@ cite, em {
   ========================================
 */
 
+a {
+  color: #648880;
+  text-decoration: none;
+}
 a:hover {
   color: #a9b2b9;
 }
-a {
-  color: #648880;
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 .logo {
   border-top: 4px solid #648880;
@@ -230,8 +255,21 @@ a {
 }
 .tagline {
   margin: 66px 0 22px 0;
+  text-align: right;
 }
 .primary-nav {
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: right;
 }
