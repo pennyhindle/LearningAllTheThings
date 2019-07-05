@@ -119,7 +119,7 @@ width:100%;
 /* carousel */
 
 .instagram-carousel {
-
+  text-align: center;
 }
 .instagram-media {
   max-width: 33%;
@@ -162,9 +162,38 @@ width:100%;
   color: white;
 }
 
+.btn-outline {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+}
 
+/* important  */
+.important-info {
+  background-color: #E8E8E8;
+  min-height: 300px;
+}
 
+.info-box {
+  display: inline-block;
+  width: 50%;
+  margin: 20px 50px 20px 50px;
+  background-color: white;
+  font-weight: bold;
+}
 
+.left {
+  float: right;
+}
+
+.right{
+  float: left;
+}
+
+.info-box img {
+  width: 100%;
+}
 
 /* footer */
 
