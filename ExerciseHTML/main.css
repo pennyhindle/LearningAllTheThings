@@ -1,0 +1,111 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* generic styles */
+
+body {
+    font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', 'Open Sans', sans-serif !important;
+}
+.container {
+  margin: auto;
+  width: 85%;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-4 {
+  width: 24%;
+}
+
+.col-1-2,
+.col-1-4 {
+  display: inline-block;
+  vertical-align: top;
+}
+/* logo  */
+
+/* nav bar  */
+nav {
+  display: inline-inline-block;
+}
+
+/* header  */
+
+/* search bar */
+.search {
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+  font-size: 16px;
+}
+
+/* main content  */
+.main-content {
+  text-align: center;
+}
+
+.main-img {
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.main-paragraph {
+  font-size: 35px;
+  font-weight: bold;
+  max-width: 60%;
+  margin: auto;
+  padding: 20px 0 20px 0;
+}
+/* carousel */
+
+/* buttons */
+.btn-square {
+  margin: 20px 0 20px 0;
+  min-height: 40px;
+  border: none;
+  border-radius: 2px;
+  min-width: 150px;
+}
+
+.btn-fill {
+  background-color: #407ab1;
+  color: white;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+  padding: 50px 0 50px 0;
+  background-color: #0058a3;
+  line-height: 2em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  color: white;
+}
+
+
+.footer-headings {
+  color: white;
+}
