@@ -1,7 +1,6 @@
-let name = "Ilya";
+let a = 1, b = 1;
 
-alert( `hello ${1}` ); // 1
+let c = ++a; // 2
+let d = b++; // 1
 
-alert( `hello ${"name"}` ); // name
-
-alert( `hello ${name}` ); // Ilya
+// a = 2, b = 2, c = 2, d=1
