@@ -1,3 +1,21 @@
-if (!(age >= 14 && age <= 90))
+visitor = prompt("Enter Admin, other or cancel")
 
-if (age < 14 || age > 90)
+if(visitor == "Cancel") {
+  alert("Cancelled");
+}
+else if(visitor == 'Admin') {
+  password = prompt("Please enter your password");
+
+  if (password == "Cancel") {
+
+  }
+  if (password == "TheMaster") {
+    alert("Welcome!")
+  }
+  else {
+    alert("Wrong password");
+  }
+}
+else {
+  alert("I don't know you");
+}
