@@ -1,8 +1,11 @@
-input = prompt("What is the 'official' name of JavaScript");
+let number = prompt("Please enter a number");
 
-if(input=="ECMAScript") {
-  alert("Right!")
+if (number > 0){
+  alert(1);
 }
-else {
-  alert("Didn't know? It's ECMAScript!")
+else if (number == 0) {
+  alert(0);
+}
+else if (number < 0) {
+  alert(-1);
 }
