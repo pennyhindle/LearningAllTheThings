@@ -1,1 +1,5 @@
-alert("I'm javascript")
+let admin;
+let name = "John";
+
+admin = name;
+alert(admin);
