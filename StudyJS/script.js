@@ -1,11 +1,5 @@
-let number = prompt("Please enter a number");
+let a =1;
+let b = 2;
+let result = (a + b < 4) ? 'Below': 'Over';
 
-if (number > 0){
-  alert(1);
-}
-else if (number == 0) {
-  alert(0);
-}
-else if (number < 0) {
-  alert(-1);
-}
+alert(result);
