@@ -1,5 +1,3 @@
-let admin;
-let name = "John";
+let earth;
 
-admin = name;
-alert(admin);
+let currentVisitor;
