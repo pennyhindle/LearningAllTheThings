@@ -1,3 +1,8 @@
-let name = prompt("Please enter your name");
+input = prompt("What is the 'official' name of JavaScript");
 
-alert("Hello " + name);
+if(input=="ECMAScript") {
+  alert("Right!")
+}
+else {
+  alert("Didn't know? It's ECMAScript!")
+}
