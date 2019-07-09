@@ -1,3 +1,7 @@
-let earth;
+let name = "Ilya";
 
-let currentVisitor;
+alert( `hello ${1}` ); // 1
+
+alert( `hello ${"name"}` ); // name
+
+alert( `hello ${name}` ); // Ilya
