@@ -1,15 +1,10 @@
-let x = 3;
-let n = 2;
-
-function pow(x, n) {
-  let result = x;
-
-  for (let i = 1; i < n; i++) {
-    result *= x;
-  }
-
-  return result;
-
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
 }
 
-pow(x,n);
+ask(
+  "Do you agree?",
+  () => alert("You agreed."),
+  () => alert("You canceled the execution.")
+);
