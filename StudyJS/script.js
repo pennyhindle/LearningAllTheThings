@@ -1,11 +1,15 @@
-let a = 5;
-let b = 7;
+let x = 3;
+let n = 2;
 
-function min(a, b) {
-  if(a < b) {
-    return a;
+function pow(x, n) {
+  let result = x;
+
+  for (let i = 1; i < n; i++) {
+    result *= x;
   }
-  else {
-    return b;
-  }
+
+  return result;
+
 }
+
+pow(x,n);
