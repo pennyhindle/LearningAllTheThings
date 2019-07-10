@@ -1,10 +1,12 @@
-number = prompt("Please enter a number");
+let browser = 'Edge';
 
-nextPrime:
-for (let i = 2; i <= number; i++) {
+if (browser == 'Edge') {
+alert("You've got the edge");
+}
+else if (browser == 'Chrome' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera') {
+  alert("Okay we support these browsers too");
+}
 
-  for (let divider = 2; divider < i; divider++) {
-    if(i % divider == 0)  continue nextPrime;
-  }
-  alert(i);
+else {
+  alert("we hope this page looks okay");
 }
