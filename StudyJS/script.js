@@ -1,12 +1,14 @@
-let browser = 'Edge';
+let a = +prompt('a?', '');
 
-if (browser == 'Edge') {
-alert("You've got the edge");
-}
-else if (browser == 'Chrome' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera') {
-  alert("Okay we support these browsers too");
-}
+switch(a) {
+  case 0:
+    alert(0);
 
-else {
-  alert("we hope this page looks okay");
+  case 1:
+    alert(1);
+
+  case 2:
+  case 3:
+    alert('2,3');
+  break;
 }
