@@ -1,14 +1,8 @@
-let a = +prompt('a?', '');
+function checkAge(age) {
+  return (age > 18) ? true: confirm('Did parents allow you? ')
+}
 
-switch(a) {
-  case 0:
-    alert(0);
 
-  case 1:
-    alert(1);
-
-  case 2:
-  case 3:
-    alert('2,3');
-  break;
+function checkAge(age) {
+  return (age > 18) || confirm('Did parents allow you?');
 }
