@@ -10,8 +10,10 @@ namespace StudyMVC.Models
     {
         public int StudentId { get; set; }
 
-        [Display(Name = "Name")]
+        [Required]
         public string StudentName { get; set; }
+
+        [Range(5, 50)]
         public int Age { get; set; }
     }
 }

@@ -26,8 +26,6 @@ namespace StudyMVC.Controllers
 
         public ActionResult Edit(int Id)
         {
-            //Get the student from studentList sample collection for demo purpose.
-            //Get the student from the database in the real application
             var std = studentList.Where(s => s.StudentId == Id).FirstOrDefault();
 
             return View(std);
@@ -36,7 +34,13 @@ namespace StudyMVC.Controllers
         [HttpPost]
         public ActionResult Edit(Student std)
         {
-            return RedirectToAction("Index");
+            if (ModelState.IsValid) // determins whether submitted values satisfy data annotation attributes
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View(std);
+              
         }
     }
 }
