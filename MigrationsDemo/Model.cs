@@ -31,5 +31,7 @@ namespace MigrationsDemo
 
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
+
+        public string Abstract { get; set; }
     }
 }
